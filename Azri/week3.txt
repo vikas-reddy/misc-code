@@ -1,0 +1,46 @@
+We have 3 container which hold x, y, z ounces of liquid respectively. The x ounces container is empty but y and z ounces containers are full. How can we measure out 'n' ounces by using only the three above mentioned contaienrs? 
+
+Suppose if we substiture values for x=19, y=13, z=7 and n=10 Then output should be like this. 
+
+				19 Ounces      13 Ounces    7 Ounces 
+			     0             13           7 
+step1            7             13           0 
+step2           19             1            0 
+step3           12             1            7 
+step4           12             8            0 
+step5            5             8            7 
+step6            5             13           2 
+step7           18             0            2 
+step8           18             2            0 
+step9           11             2            7 
+step10          11             9            0 
+step11           4             9            7 
+step12           4             13           3 
+step13          17             0            3 
+step14          17             3            0 
+step15          10             3            7 
+
+At the final step we got 10ounces on 19ounces container. Finally we should have 'n'ounces on any of the x, y, z container. If can not make then raise exception saying not possible to make it. 	 
+
+
+
+
+
+Web Concepts
+============
+Write a small application which will allow the users to store the friends list. It should have following pages. 
+
+a. Login page where users will login to store the contacts. 
+b. Registration page where new users will register 
+c. After successfull registration or login the users should goto welcome page where it lists all his friends information. Provides list to add new friend details. It should provide forms to delete friend details, edit friend details etc.. 
+d. Store the maximum friend details like name, email, website url, contact number etc.. 
+e. Provide logout link when the user click logout, the user session details should be destroyed and it should redirect to login form. 
+d. Use proper normalization for the database. 
+e. Try to use single database connection in all pages. 
+
+
+
+
+RUBY
+====
+I purchased a number of scented candles recently for sending out to friends and family. While I could be accused of being lazy by getting candles for several people, I’d like to mix up the candles a bit so that each recipient gets a different combination of scents. Please help me out! Your task is to write a method that randomizes and mixes up the individual candles into groups, one per recipient, in order to minimize group duplication. If it is impossible to have a unique combination for every recipient, you should still generate some set of combinations, minimizing repetition of combinations. If the number of recipients times the number of candles per recipient is more than the supply, generate an error.

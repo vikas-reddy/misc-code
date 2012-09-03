@@ -1,0 +1,50 @@
+ 
+ .center
+ {
+	 text-align: center;
+ }
+ 
+ div.container
+ {
+	 width: 800px;
+	 border: 1px black dotted;
+	 padding: 1em;
+	 float: center;
+ }
+ div.main
+ {
+	 background-color: white;
+	 color: black;
+	 /*
+	 text-align: center;
+	 */
+	 padding: 1em;
+ }
+
+div.heading
+{
+	background-color: gray;
+	color: white;
+	text-align: center;
+	font-size: 1.5em;
+	font-family: sans-serif;
+	line-height: 3em;
+	margin: 0px;
+}
+
+ /*
+ body
+ {
+ 	color: black;
+	background: gray;
+	text-align: center;
+ }
+	 */
+
+ span.heading
+ {
+	 font-size: 26pt;
+	 font-weight: bold italic;
+	 text-align: center;
+	 text-decoration: underline;
+ }

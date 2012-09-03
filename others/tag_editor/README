@@ -1,0 +1,10 @@
+This shell script finds any .mp3 files recursively in the directory_name/path given. 
+If no path is given as the command-line argument, it takes current directory(.) as the directory_name.
+It REMOVES ALL THE EXISTING TAGS(both v1 and v2) of any .mp3 file found and recreates id3v1 and id3v2 tags.
+It assigns Album the directory name, Title the file name with ".mp3", other "."s clipped and charecters lowered(converted to lowercase).
+This package uses id3v2/id3tool command-line id3 tag editing tool.
+
+
+THIS SOFTWARE COMES WITH NO WARRANTY
+
+release under GNU GPLv2.0

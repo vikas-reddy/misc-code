@@ -1,0 +1,11 @@
+<?
+include('Date.php');
+$new=new ReflectionClass('Date.php');
+$methods=$new->getMethods();
+foreach($methods as $method)
+{
+	print $method."\n";
+}
+
+?>
+
