@@ -1,0 +1,6 @@
+\beamer@endinputifotherversion {3.10pt}
+\beamer@sectionintoc {1}{What is an open source software?}{3}{0}{1}
+\beamer@sectionintoc {2}{Why Ubuntu?}{8}{0}{2}
+\beamer@sectionintoc {3}{Benefits}{45}{0}{3}
+\beamer@sectionintoc {4}{Who uses it?}{51}{0}{4}
+\beamer@sectionintoc {5}{What next?}{60}{0}{5}
